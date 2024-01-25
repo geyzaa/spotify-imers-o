@@ -1,0 +1,140 @@
+body {
+    background-color: #000;
+}
+
+h1 h2 {
+    color:#fff
+}
+
+.sidebar {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px; 
+}
+
+/* img dentro da div com classe logo*/
+.sidebar__navigation .logo img {
+    width: 95px;
+   /* height: 24px;*/
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+
+
+.sidebar ul li {
+    padding: 10px 0; /*cima e baixo; esquerda direita*/
+}
+
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif
+}
+
+.sidebar__biblioteca  {
+    background-color: #121212;
+    margin-top: 16px;
+    border-radius: 8px;
+    padding: 0px 0 0 0px;
+}
+
+/*flexbox tags a*/
+.sidebar__biblioteca-nav {
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 8px 16px;
+}
+
+.sidebar__biblioteca div a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn__biblioteca {
+    padding: 4px 16px;
+    font-size: 20px;
+}
+
+.btn__mais {
+    padding: 16px;
+} 
+
+.sidebar__biblioteca h2, p {
+    color:#fff;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px 20px 10px 20px;
+    /*margin-top: 20px;*/
+}
+
+.sidebar__biblioteca h2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.sidebar__biblioteca p {
+    font-size: 15px;
+}
+
+.sidebar__playlist,
+.sidebar__podcasts {
+    background: #242424;
+    margin-top: 16px;
+    margin: 8px 8px;
+    border-radius: 8px;
+    padding: 16px 20px;   
+}
+
+.sidebar__podcasts {
+    margin: 20px 8px 8px 8px;
+}
+.sidebar__playlist-botao {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0 0 10px;
+}
+
+.sidebar__footer {
+    display: flex;
+    justify-content:first baseline;
+    flex-wrap: wrap;
+    margin: 32px 0;
+    padding: 0 24px;
+    
+}
+
+.sidebar__footer button {
+    background: #121212;
+/*text-decoration: none;*/
+color: #a7a7a7; 
+border:none;
+margin: 0 16px 0 0;
+padding: 10px;
+}
