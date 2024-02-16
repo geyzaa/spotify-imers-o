@@ -75,10 +75,11 @@
 
 .header__login .subscribe {
     color: #a7a7a7;
-font-size: 16px;
-font-weight: 700;
-background-color: transparent;
-margin-right: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
 }
 
 .header__login .login{
@@ -88,4 +89,82 @@ margin-right: 32px;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+/*HOVER*/
+.header__search:hover {
+    border: 1px solid #fff;
+  }
+  
+  .header__login .subscribe:hover {
+    transform: scale(1.04);
+    color: var(--text-base-light);
+  }
+  
+  .header__login .login:hover {
+    transform: scale(1.04);
+  }
+
+/*PLAYLIST*/
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: var(--text-base-light);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  /*SCROLL*/
+.offer__scroll-container {
+    max-height: 43vw;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+/*.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;*/
+
+.offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr  1fr  1fr  1fr  1fr;
+    grid-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.cards {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
 }

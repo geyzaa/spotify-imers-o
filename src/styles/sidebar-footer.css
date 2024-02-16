@@ -31,7 +31,7 @@ h1 h2 {
 
 /* img dentro da div com classe logo*/
 .sidebar__navigation .logo img {
-    width: 95px;
+    width: 80px;
    /* height: 24px;*/
 }
 
@@ -42,7 +42,7 @@ h1 h2 {
 
 
 
-.sidebar ul li {
+.sidebar nav ul li {
     padding: 10px 0; /*cima e baixo; esquerda direita*/
 }
 
@@ -50,7 +50,7 @@ h1 h2 {
     text-decoration: none;
     color: #b3b3b3;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .library {
@@ -108,7 +108,7 @@ h1 h2 {
     font-size: 14px;
     margin: 8px 0;
     padding:16px 20px;
-    border-radius:10px;
+    border-radius:8px;
 }
 
 .section-playlist .section-playlist__content {
